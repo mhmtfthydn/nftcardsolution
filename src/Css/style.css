@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: hsl(217, 54%, 11%);
+  font-size: 18px;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+}
+.container {
+  width: 350px;
+  height: 600px;
+  background: hsl(216, 50%, 16%);
+  margin-left: 40%;
+  margin-top: 10%;
+  border-radius: 3%;
+  position: relative;
+}
+#avatarimage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.avatar {
+  position: absolute;
+  top: 540px;
+  left: 25px;
+}
+
+img#mainphoto {
+  position: absolute;
+  width: 300px;
+  top: 25px;
+  left: 25px;
+  border-radius: 3%;
+}
+.article {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 350px;
+  left: 25px;
+  right: 25px;
+}
+#eth-info {
+  position: absolute;
+  top: 478px;
+  left: 45px;
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+}
+.eth {
+  position: absolute;
+  top: 480px;
+  left: 25px;
+}
+#time-info {
+  position: absolute;
+  top: 478px;
+  left: 255px;
+  color: hsl(215, 51%, 70%);
+}
+.time {
+  position: absolute;
+  top: 480px;
+  left: 235px;
+}
+hr {
+  width: 300px;
+  color: hsl(215, 32%, 27%);
+  display: inline-block;
+  position: absolute;
+  top: 525px;
+  left: 25px;
+}
+#first-child {
+  text-align: left;
+  color: hsl(215, 51%, 70%);
+  margin-top: 25px;
+  font-family: "Outfit", sans-serif;
+}
+#author {
+  position: absolute;
+  color: hsl(215, 51%, 70%);
+  top: 545px;
+  left: 75px;
+  font-family: "Outfit", sans-serif;
+}
+.attribution {
+  position: absolute;
+  top: 900px;
+  left: 800px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
